@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Apollo Automation",
+    "description": "This extensions helps to automate the save data of particular company's employees into an list which should be addedd into apollo.io's website.",
+    "version": "1.0",
+    "permissions": [
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_title": "Apollo Automation",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png"
+        }
+    }
+}
